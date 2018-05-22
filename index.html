@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+
+        <title>UWyo | ARCC | Slurm Dash</title>
+        <meta name="description" content="UWyo ARCC Slurm Dash" />
+        <meta name="author" content="University of Wyoming" />
+
+        <!-- <link rel="stylesheet" type="text/css" href="main.css" /> -->
+        <script src="https://cdn.jsdelivr.net/npm/vega@4.0.0-rc.1"></script>
+        <script type="text/javascript">
+            var view;
+            var set;
+            var parts;
+            var partList;
+
+            vega.loader()
+                .load( 'process.json' )
+                .then(
+                    function( data )
+                    {
+                        render( JSON.parse( data ) );
+                    } );
+
+            function render( spec )
+            {
+                view = new vega.View( vega.parse( spec ) )
+                    .renderer( 'svg' )
+                    .initialize( '#view' )
+                    .run();
+            }
+        </script>
+    </head>
+    <body>
+        <div id="view"></div>
+    </body>
+</html>
