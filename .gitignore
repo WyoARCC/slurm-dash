@@ -1,0 +1,6 @@
+# Ignore any editor files
+**/.vscode/**
+
+# Make sure only the intended sample data file is tracked for use
+sample_output*.json
+!sample_output_anon.json
