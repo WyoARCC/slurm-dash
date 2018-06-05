@@ -1,6 +1,6 @@
 # slurm-dash
 
-The University of Wyoming Advanced Research Computing Cluster (ARCC)
+The University of Wyoming Advanced Research Computing Center (ARCC)
 [Slurm Workload Manager][swm] Dashboard
 
 ## Purpose
