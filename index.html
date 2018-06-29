@@ -35,17 +35,17 @@ form {
 
 <div id="chart-area">
 <form>
-    <label><input type="radio" name="type" value="_memory" checked> Memory</label>
-    <label><input type="radio" name="type" value="_cpu"> CPUs</label>
-    <label><input type="radio" name="type" value="_gpu"> GPUs</label>
+    <label><input type="radio" name="type" value="_memory" checked>Memory</label>
+    <label><input type="radio" name="type" value="_cpu">CPUs</label>
+    <label><input type="radio" name="type" value="_gpu">GPUs</label>
 </form>
 </div>
 
 <script>
 const width = 600;
 const height = 600;
-const radius = Math.min(width, height) / 2 - 10;
-const innerRadius = Math.round(radius * 0.8);
+const outerRadius = Math.min(width, height) / 2 - 10;
+const innerRadius = Math.round(outerRadius * 0.7);
 
 const svg = d3.select("#chart-area")
     .append("svg")
@@ -61,15 +61,15 @@ const pie = d3.pie()
 
 const arc1 = d3.arc()
     .innerRadius(innerRadius)
-    .outerRadius(radius);
+    .outerRadius(outerRadius);
 
 const arc2 = d3.arc()
-    .innerRadius(Math.round(innerRadius * 0.8**3))
-    .outerRadius(Math.round(innerRadius * 0.8));
+    .innerRadius(Math.round(innerRadius * 0.8**2))
+    .outerRadius(Math.round(outerRadius * 0.8**2));
 
 const arc3 = d3.arc()
-    .innerRadius(Math.round(innerRadius * 0.8**6))
-    .outerRadius(Math.round(innerRadius * 0.8**4));
+    .innerRadius(Math.round(innerRadius * 0.8**4))
+    .outerRadius(Math.round(outerRadius * 0.8**4));
 
 var val;
 
