@@ -1,598 +1,677 @@
 {
-    "ARCC_QUEUE": {
-        "accounts": [
-            {
-                "id": "state|pending",
-                "accounts": [
-                    {
-                        "id": "ndsp",
-                        "_cpu": 1,
-                        "_gpu": 0,
-                        "_memory": 3584,
-                        "users": [
-                            {
-                                "id": "user0008",
-                                "_cpu": 1,
-                                "_gpu": 0,
-                                "_memory": 3584
-                            }
-                        ]
-                    },
-                    {
-                        "id": "rd-hea",
-                        "_cpu": 256,
-                        "_gpu": 0,
-                        "_memory": 1327104,
-                        "users": [
-                            {
-                                "id": "user0005",
-                                "_cpu": 96,
-                                "_gpu": 0,
-                                "_memory": 344064
-                            },
-                            {
-                                "id": "user0021",
-                                "_cpu": 160,
-                                "_gpu": 0,
-                                "_memory": 983040
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "id": "state|running",
-                "accounts": [
-                    {
-                        "id": "accretiondisks",
-                        "_cpu": 1024,
-                        "_gpu": 0,
-                        "_memory": 3670016,
-                        "users": [
-                            {
-                                "id": "user0004",
-                                "_cpu": 1024,
-                                "_gpu": 0,
-                                "_memory": 3670016
-                            }
-                        ]
-                    },
-                    {
-                        "id": "bbtrees",
-                        "_cpu": 300,
-                        "_gpu": 0,
-                        "_memory": 6000000,
-                        "users": [
-                            {
-                                "id": "user0007",
-                                "_cpu": 300,
-                                "_gpu": 0,
-                                "_memory": 6000000
-                            }
-                        ]
-                    },
-                    {
-                        "id": "ci-water",
-                        "_cpu": 256,
-                        "_gpu": 0,
-                        "_memory": 917504,
-                        "users": [
-                            {
-                                "id": "user0020",
-                                "_cpu": 256,
-                                "_gpu": 0,
-                                "_memory": 917504
-                            }
-                        ]
-                    },
-                    {
-                        "id": "euo",
-                        "_cpu": 16,
-                        "_gpu": 0,
-                        "_memory": 2048000,
-                        "users": [
-                            {
-                                "id": "user0018",
-                                "_cpu": 16,
-                                "_gpu": 0,
-                                "_memory": 2048000
-                            }
-                        ]
-                    },
-                    {
-                        "id": "evolvingai",
-                        "_cpu": 612,
-                        "_gpu": 26,
-                        "_memory": 2294696,
-                        "users": [
-                            {
-                                "id": "user0003",
-                                "_cpu": 384,
-                                "_gpu": 24,
-                                "_memory": 1451520
-                            },
-                            {
-                                "id": "user0009",
-                                "_cpu": 224,
-                                "_gpu": 0,
-                                "_memory": 802816
-                            },
-                            {
-                                "id": "user0013",
-                                "_cpu": 4,
-                                "_gpu": 2,
-                                "_memory": 40360
-                            }
-                        ]
-                    },
-                    {
-                        "id": "inbreb",
-                        "_cpu": 32,
-                        "_gpu": 0,
-                        "_memory": 1024000,
-                        "users": [
-                            {
-                                "id": "user0016",
-                                "_cpu": 32,
-                                "_gpu": 0,
-                                "_memory": 1024000
-                            }
-                        ]
-                    },
-                    {
-                        "id": "inbrecondo",
-                        "_cpu": 16,
-                        "_gpu": 0,
-                        "_memory": 57344,
-                        "users": [
-                            {
-                                "id": "user0022",
-                                "_cpu": 16,
-                                "_gpu": 0,
-                                "_memory": 57344
-                            }
-                        ]
-                    },
-                    {
-                        "id": "lessf",
-                        "_cpu": 224,
-                        "_gpu": 0,
-                        "_memory": 802816,
-                        "users": [
-                            {
-                                "id": "user0006",
-                                "_cpu": 32,
-                                "_gpu": 0,
-                                "_memory": 114688
-                            },
-                            {
-                                "id": "user0017",
-                                "_cpu": 192,
-                                "_gpu": 0,
-                                "_memory": 688128
-                            }
-                        ]
-                    },
-                    {
-                        "id": "mofgcmc",
-                        "_cpu": 2,
-                        "_gpu": 0,
-                        "_memory": 7168,
-                        "users": [
-                            {
-                                "id": "user0011",
-                                "_cpu": 2,
-                                "_gpu": 0,
-                                "_memory": 7168
-                            }
-                        ]
-                    },
-                    {
-                        "id": "ndsp",
-                        "_cpu": 21,
-                        "_gpu": 0,
-                        "_memory": 75264,
-                        "users": [
-                            {
-                                "id": "user0008",
-                                "_cpu": 21,
-                                "_gpu": 0,
-                                "_memory": 75264
-                            }
-                        ]
-                    },
-                    {
-                        "id": "nitrogenactivation",
-                        "_cpu": 304,
-                        "_gpu": 0,
-                        "_memory": 2072576,
-                        "users": [
-                            {
-                                "id": "user0012",
-                                "_cpu": 304,
-                                "_gpu": 0,
-                                "_memory": 2072576
-                            }
-                        ]
-                    },
-                    {
-                        "id": "plane",
-                        "_cpu": 33,
-                        "_gpu": 0,
-                        "_memory": 118272,
-                        "users": [
-                            {
-                                "id": "user0014",
-                                "_cpu": 33,
-                                "_gpu": 0,
-                                "_memory": 118272
-                            }
-                        ]
-                    },
-                    {
-                        "id": "quantumdot",
-                        "_cpu": 256,
-                        "_gpu": 0,
-                        "_memory": 2000000,
-                        "users": [
-                            {
-                                "id": "user0001",
-                                "_cpu": 256,
-                                "_gpu": 0,
-                                "_memory": 2000000
-                            }
-                        ]
-                    },
-                    {
-                        "id": "rd-hea",
-                        "_cpu": 544,
-                        "_gpu": 0,
-                        "_memory": 2359296,
-                        "users": [
-                            {
-                                "id": "user0005",
-                                "_cpu": 288,
-                                "_gpu": 0,
-                                "_memory": 1032192
-                            },
-                            {
-                                "id": "user0010",
-                                "_cpu": 96,
-                                "_gpu": 0,
-                                "_memory": 344064
-                            },
-                            {
-                                "id": "user0021",
-                                "_cpu": 160,
-                                "_gpu": 0,
-                                "_memory": 983040
-                            }
-                        ]
-                    },
-                    {
-                        "id": "stm",
-                        "_cpu": 33,
-                        "_gpu": 0,
-                        "_memory": 118272,
-                        "users": [
-                            {
-                                "id": "user0002",
-                                "_cpu": 33,
-                                "_gpu": 0,
-                                "_memory": 118272
-                            }
-                        ]
-                    },
-                    {
-                        "id": "turbulencemodeling",
-                        "_cpu": 192,
-                        "_gpu": 0,
-                        "_memory": 688128,
-                        "users": [
-                            {
-                                "id": "user0015",
-                                "_cpu": 64,
-                                "_gpu": 0,
-                                "_memory": 229376
-                            },
-                            {
-                                "id": "user0017",
-                                "_cpu": 128,
-                                "_gpu": 0,
-                                "_memory": 458752
-                            }
-                        ]
-                    },
-                    {
-                        "id": "wagnerlab",
-                        "_cpu": 64,
-                        "_gpu": 0,
-                        "_memory": 512000,
-                        "users": [
-                            {
-                                "id": "user0019",
-                                "_cpu": 64,
-                                "_gpu": 0,
-                                "_memory": 512000
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
-        "partitions": {
-            "state|pending": {
-                "compmicrosci,moran": {
+    "ARCC_QUEUE":
+    {
+        "accounts":
+        {
+            "pending":
+            [
+                {
+                    "id": "ndsp",
+                    "_cpu": 1,
+                    "_gpu": 0,
+                    "_memory": 3584,
+                    "users":
+                    [
+                        {
+                            "id": "user0008",
+                            "_cpu": 1,
+                            "_gpu": 0,
+                            "_memory": 3584
+                        }
+                    ]
+                },
+                {
+                    "id": "rd-hea",
+                    "_cpu": 256,
+                    "_gpu": 0,
+                    "_memory": 1327104,
+                    "users":
+                    [
+                        {
+                            "id": "user0005",
+                            "_cpu": 96,
+                            "_gpu": 0,
+                            "_memory": 344064
+                        },
+                        {
+                            "id": "user0021",
+                            "_cpu": 160,
+                            "_gpu": 0,
+                            "_memory": 983040
+                        }
+                    ]
+                }
+            ],
+            "running":
+            [
+                {
+                    "id": "accretiondisks",
+                    "_cpu": 1024,
+                    "_gpu": 0,
+                    "_memory": 3670016,
+                    "users":
+                    [
+                        {
+                            "id": "user0004",
+                            "_cpu": 1024,
+                            "_gpu": 0,
+                            "_memory": 3670016
+                        }
+                    ]
+                },
+                {
+                    "id": "bbtrees",
+                    "_cpu": 300,
+                    "_gpu": 0,
+                    "_memory": 6000000,
+                    "users":
+                    [
+                        {
+                            "id": "user0007",
+                            "_cpu": 300,
+                            "_gpu": 0,
+                            "_memory": 6000000
+                        }
+                    ]
+                },
+                {
+                    "id": "ci-water",
+                    "_cpu": 256,
+                    "_gpu": 0,
+                    "_memory": 917504,
+                    "users":
+                    [
+                        {
+                            "id": "user0020",
+                            "_cpu": 256,
+                            "_gpu": 0,
+                            "_memory": 917504
+                        }
+                    ]
+                },
+                {
+                    "id": "euo",
+                    "_cpu": 16,
+                    "_gpu": 0,
+                    "_memory": 2048000,
+                    "users":
+                    [
+                        {
+                            "id": "user0018",
+                            "_cpu": 16,
+                            "_gpu": 0,
+                            "_memory": 2048000
+                        }
+                    ]
+                },
+                {
+                    "id": "evolvingai",
+                    "_cpu": 612,
+                    "_gpu": 26,
+                    "_memory": 2294696,
+                    "users":
+                    [
+                        {
+                            "id": "user0003",
+                            "_cpu": 384,
+                            "_gpu": 24,
+                            "_memory": 1451520
+                        },
+                        {
+                            "id": "user0009",
+                            "_cpu": 224,
+                            "_gpu": 0,
+                            "_memory": 802816
+                        },
+                        {
+                            "id": "user0013",
+                            "_cpu": 4,
+                            "_gpu": 2,
+                            "_memory": 40360
+                        }
+                    ]
+                },
+                {
+                    "id": "inbreb",
+                    "_cpu": 32,
+                    "_gpu": 0,
+                    "_memory": 1024000,
+                    "users":
+                    [
+                        {
+                            "id": "user0016",
+                            "_cpu": 32,
+                            "_gpu": 0,
+                            "_memory": 1024000
+                        }
+                    ]
+                },
+                {
+                    "id": "inbrecondo",
+                    "_cpu": 16,
+                    "_gpu": 0,
+                    "_memory": 57344,
+                    "users":
+                    [
+                        {
+                            "id": "user0022",
+                            "_cpu": 16,
+                            "_gpu": 0,
+                            "_memory": 57344
+                        }
+                    ]
+                },
+                {
+                    "id": "lessf",
+                    "_cpu": 224,
+                    "_gpu": 0,
+                    "_memory": 802816,
+                    "users":
+                    [
+                        {
+                            "id": "user0006",
+                            "_cpu": 32,
+                            "_gpu": 0,
+                            "_memory": 114688
+                        },
+                        {
+                            "id": "user0017",
+                            "_cpu": 192,
+                            "_gpu": 0,
+                            "_memory": 688128
+                        }
+                    ]
+                },
+                {
+                    "id": "mofgcmc",
+                    "_cpu": 2,
+                    "_gpu": 0,
+                    "_memory": 7168,
+                    "users":
+                    [
+                        {
+                            "id": "user0011",
+                            "_cpu": 2,
+                            "_gpu": 0,
+                            "_memory": 7168
+                        }
+                    ]
+                },
+                {
+                    "id": "ndsp",
+                    "_cpu": 21,
+                    "_gpu": 0,
+                    "_memory": 75264,
+                    "users":
+                    [
+                        {
+                            "id": "user0008",
+                            "_cpu": 21,
+                            "_gpu": 0,
+                            "_memory": 75264
+                        }
+                    ]
+                },
+                {
+                    "id": "nitrogenactivation",
+                    "_cpu": 304,
+                    "_gpu": 0,
+                    "_memory": 2072576,
+                    "users":
+                    [
+                        {
+                            "id": "user0012",
+                            "_cpu": 304,
+                            "_gpu": 0,
+                            "_memory": 2072576
+                        }
+                    ]
+                },
+                {
+                    "id": "plane",
+                    "_cpu": 33,
+                    "_gpu": 0,
+                    "_memory": 118272,
+                    "users":
+                    [
+                        {
+                            "id": "user0014",
+                            "_cpu": 33,
+                            "_gpu": 0,
+                            "_memory": 118272
+                        }
+                    ]
+                },
+                {
+                    "id": "quantumdot",
+                    "_cpu": 256,
+                    "_gpu": 0,
+                    "_memory": 2000000,
+                    "users":
+                    [
+                        {
+                            "id": "user0001",
+                            "_cpu": 256,
+                            "_gpu": 0,
+                            "_memory": 2000000
+                        }
+                    ]
+                },
+                {
+                    "id": "rd-hea",
+                    "_cpu": 544,
+                    "_gpu": 0,
+                    "_memory": 2359296,
+                    "users":
+                    [
+                        {
+                            "id": "user0005",
+                            "_cpu": 288,
+                            "_gpu": 0,
+                            "_memory": 1032192
+                        },
+                        {
+                            "id": "user0010",
+                            "_cpu": 96,
+                            "_gpu": 0,
+                            "_memory": 344064
+                        },
+                        {
+                            "id": "user0021",
+                            "_cpu": 160,
+                            "_gpu": 0,
+                            "_memory": 983040
+                        }
+                    ]
+                },
+                {
+                    "id": "stm",
+                    "_cpu": 33,
+                    "_gpu": 0,
+                    "_memory": 118272,
+                    "users":
+                    [
+                        {
+                            "id": "user0002",
+                            "_cpu": 33,
+                            "_gpu": 0,
+                            "_memory": 118272
+                        }
+                    ]
+                },
+                {
+                    "id": "turbulencemodeling",
+                    "_cpu": 192,
+                    "_gpu": 0,
+                    "_memory": 688128,
+                    "users":
+                    [
+                        {
+                            "id": "user0015",
+                            "_cpu": 64,
+                            "_gpu": 0,
+                            "_memory": 229376
+                        },
+                        {
+                            "id": "user0017",
+                            "_cpu": 128,
+                            "_gpu": 0,
+                            "_memory": 458752
+                        }
+                    ]
+                },
+                {
+                    "id": "wagnerlab",
+                    "_cpu": 64,
+                    "_gpu": 0,
+                    "_memory": 512000,
+                    "users":
+                    [
+                        {
+                            "id": "user0019",
+                            "_cpu": 64,
+                            "_gpu": 0,
+                            "_memory": 512000
+                        }
+                    ]
+                }
+            ]
+        },
+        "partitions":
+        {
+            "pending":
+            [
+                {
+                    "id": "compmicrosci,moran",
                     "_cpu": 96,
                     "_gpu": 0,
                     "_memory": 344064
                 },
-                "moran": {
+                {
+                    "id": "moran",
                     "_cpu": 1,
                     "_gpu": 0,
                     "_memory": 3584
                 },
-                "moran,compmicrosci": {
+                {
+                    "id": "moran,compmicrosci",
                     "_cpu": 160,
                     "_gpu": 0,
                     "_memory": 983040
                 }
-            },
-            "state|running": {
-                "atmo2grid": {
+            ],
+            "running":
+            [
+                {
+                    "id": "atmo2grid",
                     "_cpu": 128,
                     "_gpu": 0,
                     "_memory": 458752
                 },
-                "chemistry": {
+                {
+                    "id": "chemistry",
                     "_cpu": 48,
                     "_gpu": 0,
                     "_memory": 303104
                 },
-                "clune": {
+                {
+                    "id": "clune",
                     "_cpu": 176,
                     "_gpu": 7,
                     "_memory": 652736
                 },
-                "compmicrosci": {
+                {
+                    "id": "compmicrosci",
                     "_cpu": 96,
                     "_gpu": 0,
                     "_memory": 344064
                 },
-                "dgx": {
+                {
+                    "id": "dgx",
                     "_cpu": 4,
                     "_gpu": 2,
                     "_memory": 40360
                 },
-                "inbre": {
+                {
+                    "id": "inbre",
                     "_cpu": 48,
                     "_gpu": 0,
                     "_memory": 1081344
                 },
-                "moran": {
+                {
+                    "id": "moran",
                     "_cpu": 3141,
                     "_gpu": 17,
                     "_memory": 20711488
                 },
-                "track2": {
+                {
+                    "id": "track2",
                     "_cpu": 256,
                     "_gpu": 0,
                     "_memory": 917504
                 },
-                "wagner": {
+                {
+                    "id": "wagner",
                     "_cpu": 32,
                     "_gpu": 0,
                     "_memory": 256000
                 }
-            }
+            ]
         },
-        "qos": {
-            "state|pending": {
-                "compmicrosci": {
+        "qos":
+        {
+            "pending":
+            [
+                {
+                    "id": "compmicrosci",
                     "_cpu": 256,
                     "_gpu": 0,
                     "_memory": 1327104
                 },
-                "general": {
+                {
+                    "id": "general",
                     "_cpu": 1,
                     "_gpu": 0,
                     "_memory": 3584
                 }
-            },
-            "state|running": {
-                "atmo2grid": {
+            ],
+            "running":
+            [
+                {
+                    "id": "atmo2grid",
                     "_cpu": 192,
                     "_gpu": 0,
                     "_memory": 688128
                 },
-                "chemistry": {
+                {
+                    "id": "chemistry",
                     "_cpu": 304,
                     "_gpu": 0,
                     "_memory": 2072576
                 },
-                "clune": {
+                {
+                    "id": "clune",
                     "_cpu": 612,
                     "_gpu": 26,
                     "_memory": 2294696
                 },
-                "compmicrosci": {
+                {
+                    "id": "compmicrosci",
                     "_cpu": 544,
                     "_gpu": 0,
                     "_memory": 2359296
                 },
-                "general": {
+                {
+                    "id": "general",
                     "_cpu": 1893,
                     "_gpu": 0,
                     "_memory": 12791808
                 },
-                "inbre": {
+                {
+                    "id": "inbre",
                     "_cpu": 48,
                     "_gpu": 0,
                     "_memory": 1081344
                 },
-                "physics": {
+                {
+                    "id": "physics",
                     "_cpu": 16,
                     "_gpu": 0,
                     "_memory": 2048000
                 },
-                "track2": {
+                {
+                    "id": "track2",
                     "_cpu": 256,
                     "_gpu": 0,
                     "_memory": 917504
                 },
-                "wagner": {
+                {
+                    "id": "wagner",
                     "_cpu": 64,
                     "_gpu": 0,
                     "_memory": 512000
                 }
-            }
+            ]
         },
-        "total": {
-            "state|pending": {
+        "total":
+        {
+            "pending":
+            {
                 "_cpu": 257,
                 "_gpu": 0,
                 "_memory": 1330688
             },
-            "state|running": {
+            "running":
+            {
                 "_cpu": 3929,
                 "_gpu": 26,
                 "_memory": 24765352
             }
         },
-        "users": {
-            "state|pending": {
-                "user0005": {
+        "users":
+        {
+            "pending":
+            [
+                {
+                    "id": "user0005",
                     "_cpu": 96,
                     "_gpu": 0,
                     "_memory": 344064
                 },
-                "user0008": {
+                {
+                    "id": "user0008",
                     "_cpu": 1,
                     "_gpu": 0,
                     "_memory": 3584
                 },
-                "user0021": {
+                {
+                    "id": "user0021",
                     "_cpu": 160,
                     "_gpu": 0,
                     "_memory": 983040
                 }
-            },
-            "state|running": {
-                "user0001": {
+            ],
+            "running":
+            [
+                {
+                    "id": "user0001",
                     "_cpu": 256,
                     "_gpu": 0,
                     "_memory": 2000000
                 },
-                "user0002": {
+                {
+                    "id": "user0002",
                     "_cpu": 33,
                     "_gpu": 0,
                     "_memory": 118272
                 },
-                "user0003": {
+                {
+                    "id": "user0003",
                     "_cpu": 384,
                     "_gpu": 24,
                     "_memory": 1451520
                 },
-                "user0004": {
+                {
+                    "id": "user0004",
                     "_cpu": 1024,
                     "_gpu": 0,
                     "_memory": 3670016
                 },
-                "user0005": {
+                {
+                    "id": "user0005",
                     "_cpu": 288,
                     "_gpu": 0,
                     "_memory": 1032192
                 },
-                "user0006": {
+                {
+                    "id": "user0006",
                     "_cpu": 32,
                     "_gpu": 0,
                     "_memory": 114688
                 },
-                "user0007": {
+                {
+                    "id": "user0007",
                     "_cpu": 300,
                     "_gpu": 0,
                     "_memory": 6000000
                 },
-                "user0008": {
+                {
+                    "id": "user0008",
                     "_cpu": 21,
                     "_gpu": 0,
                     "_memory": 75264
                 },
-                "user0009": {
+                {
+                    "id": "user0009",
                     "_cpu": 224,
                     "_gpu": 0,
                     "_memory": 802816
                 },
-                "user0010": {
+                {
+                    "id": "user0010",
                     "_cpu": 96,
                     "_gpu": 0,
                     "_memory": 344064
                 },
-                "user0011": {
+                {
+                    "id": "user0011",
                     "_cpu": 2,
                     "_gpu": 0,
                     "_memory": 7168
                 },
-                "user0012": {
+                {
+                    "id": "user0012",
                     "_cpu": 304,
                     "_gpu": 0,
                     "_memory": 2072576
                 },
-                "user0013": {
+                {
+                    "id": "user0013",
                     "_cpu": 4,
                     "_gpu": 2,
                     "_memory": 40360
                 },
-                "user0014": {
+                {
+                    "id": "user0014",
                     "_cpu": 33,
                     "_gpu": 0,
                     "_memory": 118272
                 },
-                "user0015": {
+                {
+                    "id": "user0015",
                     "_cpu": 64,
                     "_gpu": 0,
                     "_memory": 229376
                 },
-                "user0016": {
+                {
+                    "id": "user0016",
                     "_cpu": 32,
                     "_gpu": 0,
                     "_memory": 1024000
                 },
-                "user0017": {
+                {
+                    "id": "user0017",
                     "_cpu": 320,
                     "_gpu": 0,
                     "_memory": 1146880
                 },
-                "user0018": {
+                {
+                    "id": "user0018",
                     "_cpu": 16,
                     "_gpu": 0,
                     "_memory": 2048000
                 },
-                "user0019": {
+                {
+                    "id": "user0019",
                     "_cpu": 64,
                     "_gpu": 0,
                     "_memory": 512000
                 },
-                "user0020": {
+                {
+                    "id": "user0020",
                     "_cpu": 256,
                     "_gpu": 0,
                     "_memory": 917504
                 },
-                "user0021": {
+                {
+                    "id": "user0021",
                     "_cpu": 160,
                     "_gpu": 0,
                     "_memory": 983040
                 },
-                "user0022": {
+                {
+                    "id": "user0022",
                     "_cpu": 16,
                     "_gpu": 0,
                     "_memory": 57344
                 }
-            }
+            ]
         }
     },
-    "ARCC_RESOURCES": {
-        "PARTITIONS": [
+    "ARCC_RESOURCES":
+    {
+        "PARTITIONS":
+        [
             {
                 "id": "arcc",
                 "_core": 20,
@@ -824,7 +903,8 @@
                 "_thread": 144
             }
         ],
-        "TOTAL": {
+        "TOTAL":
+        {
             "_core": 5420,
             "_cpu": 6388,
             "_gpu": 97,
